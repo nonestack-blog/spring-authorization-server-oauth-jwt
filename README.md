@@ -14,7 +14,7 @@ Spring Authorization Server OAuth that uses JWT Token
 
 - Navigate to https://start.spring.io
 
-- define the project name example: `spring-boot-security-basic-auth`
+- define the project name example: `spring-authorization-server-oauth-jwt`
 - Choose Project **Maven** and the language  **Java**.
 - Choose Your **Java** version ex: **17**
 - Click add dependencies and select:
