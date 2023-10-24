@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    defer-datasource-initialization: true
+    show-sql: true
+
+app:
+  security:
+    key: 'NWM3NDhkOTM5NDc4MTgyMTdiZDdmMzM5NjIyOTRkM2U4YWU2MzkyNDM3YjNlNzc3MzA3Yjg0MDA3MGU5MzEzZWY4ZjhiMGQ5MGYyOTU0YjUyNTJhOTliMzMzMWExOWRhNGUyNWVhMWE5ZWY3MzY0ZjYwMTRiNjNhZDQ0ZTkzNDA'
+    validity: 3600
+
+

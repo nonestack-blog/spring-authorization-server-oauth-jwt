@@ -1,0 +1,9 @@
+INSERT INTO PERMISSIONS (ID, NAME)
+VALUES (1, 'read'),
+       (2, 'write');
+
+INSERT INTO USERS (ID, NAME, EMAIL, PASSWORD, ACTIVE)
+VALUES (1, 'john doe', 'john.doe@example.com', '$2a$12$x1pibFM7OeLeq..7/9rEkewNsSokhPIx7saguQsLg/jheUI2EBOEG', true);
+
+INSERT INTO USERS_PERMISSIONS (USERS_ID, PERMISSIONS_ID)
+VALUES (1, 1);
