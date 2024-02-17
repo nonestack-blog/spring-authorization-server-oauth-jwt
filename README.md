@@ -2,15 +2,15 @@
 
 Spring Authorization Server OAuth (JWT) that uses Spring Security and Spring Security OAuth2 Resource. Applying the new way to configure OAuth JWT without the need of writing a customized filter.
 
-## What You Will build
+## <a name="what-you-will-build" aria-label="what-you-will-build" id="what-you-will-build" href="#what-you-will-build"></a>What You Will build
 Spring Authorization Server OAuth that uses JWT Token
 
-## What You Need
+## <a name="what-you-need" aria-label="what-you-need" id="what-you-need" href="#what-you-need"></a>What You Need
 - A favorite text editor or IDE
 - JDK 1.8 or later
 - Gradle 4+ or Maven 3.2+
 
-## Setup Project With Spring Initializr
+## <a name="setup-project-with-spring-initializr" aria-label="setup-project-with-spring-initializr" id="setup-project-with-spring-initializr" href="#setup-project-with-spring-initializr"></a>Setup Project With Spring Initializr
 
 - Navigate to https://start.spring.io
 
@@ -31,7 +31,7 @@ Spring Authorization Server OAuth that uses JWT Token
 Unzip the Downloaded Zip and open the Project using your favorite text editor or IDE
 
 
-## Start the implementation
+## <a name="start-the-implementation" aria-label="start-the-implementation" id="start-the-implementation" href="#start-the-implementation"></a>Start the implementation
 - Define The Permission Entity
 ```java
 @Entity(name = "Permission")
@@ -390,7 +390,7 @@ app:
         validity: 3600
 ```
 
-## Run
+## <a name="run" aria-label="run" id="run" href="#run"></a>Run
 
 Run the Java application as a `SpringBootApplication` with your IDE or use the following command line
 
@@ -399,7 +399,7 @@ Run the Java application as a `SpringBootApplication` with your IDE or use the f
 ```
 Now, you can open the URL below on your browser, default port is `8080` you can set it under the `application.yml`
 
-## Testing
+## <a name="testing" aria-label="testing" id="testing" href="#testing"></a>Testing
 
 Write some test cases to test the authentication flow that work correctly
 - Test 1 : check the authentication and retrieve JWT token
@@ -454,12 +454,12 @@ public class AuthenticateTest {
 }
 ```
 
-## Summary
+## <a name="summary" aria-label="summary" id="summary" href="#summary"></a>Summary
 
 Congratulations 🎉 ! You've created a Spring Authorization Server OAuth that uses JWT Token using Spring Security & Spring OAuth2 Resource
 
-## Github
+## <a name="github" aria-label="github" id="github" href="#github"></a>Github
 The tutorial can be found here on [GitHub](https://github.com/nonestack-blog/spring-authorization-server-oauth-jwt) 👋
 
-## Blog
+## <a name="blog" aria-label="blog" id="blog" href="#blog"></a>Blog
 Check new tutorials on [nonestack](https://www.nonestack.com) 👋
