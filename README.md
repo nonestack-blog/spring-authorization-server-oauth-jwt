@@ -12,9 +12,8 @@ Spring Authorization Server OAuth that uses JWT Token
 
 ## <a name="setup-project-with-spring-initializr" aria-label="setup-project-with-spring-initializr" id="setup-project-with-spring-initializr" href="#setup-project-with-spring-initializr"></a>Setup Project With Spring Initializr
 
-- Navigate to https://start.spring.io
-
-- define the project name example: `spring-authorization-server-oauth-jwt`
+- Navigate to [Spring initializr](https://start.spring.io).
+- Define the project name example: `spring-authorization-server-oauth-jwt`
 - Choose Project **Maven** and the language  **Java**.
 - Choose Your **Java** version ex: **17**
 - Click add dependencies and select:
